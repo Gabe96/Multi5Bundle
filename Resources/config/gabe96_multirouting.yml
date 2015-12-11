@@ -1,0 +1,3 @@
+gabe_multi5_homepage:
+    path: /home-multi
+    defaults: { _controller: Gabe96Multi5Bundle:Defualt:getHomepage }

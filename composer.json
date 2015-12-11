@@ -1,0 +1,35 @@
+{
+  "name": "gabe96/multi5bundle",
+  "description": "Ugly thing",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "GM",
+      "email": "thisis@notreal.com"
+    }
+  ],
+  "keywords": [
+    "Test",
+    "Dont",
+    "Download"
+  ],
+  "homepage": "https://github.com/Gabe96/Multi5Bundle",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "symfony/framework-bundle": "~2.8"
+  },
+  "require-dev": {
+    "symfony/security-bundle": "*",
+    "symfony/yaml": "*",
+    "symfony/class-loader": "*",
+    "symfony/browser-kit": "*",
+    "sensio/framework-extra-bundle": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Multi5Bundle": "src"
+    }
+  }
+}

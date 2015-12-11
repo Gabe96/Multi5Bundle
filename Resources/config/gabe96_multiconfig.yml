@@ -1,0 +1,8 @@
+imports:
+    - { resource: config.yml }
+
+
+services:
+    my_multi5:
+        class:        Gabe96\Multi5Bundle\Services\Multi5
+        arguments:
