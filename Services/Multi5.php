@@ -4,15 +4,21 @@ namespace Gabe96\Multi5Bundle\Services;
 class Multi5
 {
     private $Multi5;
+    private $Inserito;
 
-    public function setMulti5($Multi5)
+    public function setNumero($Inserito)
     {
-        $this->Multi5 = $Multi5;
+        $this->Inserito = $Inserito;
     }
 
     public function doMulti5()
     {
-        $this->Multi5 = ($this->Multi5 * 5);
+        $this->Multi5 = ($this->Inserito * 5);
         return $this->Multi5;
+    }
+
+    public function getInserito()
+    {
+        return $this->Inserito;
     }
 }
