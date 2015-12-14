@@ -29,7 +29,8 @@
   },
   "autoload": {
     "psr-0": {
-      "Multi5Bundle": "src"
+      "Gabe96\\Multi5Bundle": ""
     }
-  }
+  },
+  "target-dir": "Gabe96/Multi5Bundle"
 }

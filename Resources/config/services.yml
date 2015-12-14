@@ -1,0 +1,3 @@
+services:
+    gabe96.multi5:
+        class: Gabe96\Multi5Bundle\Services\Multi5
